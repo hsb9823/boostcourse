@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssbasic</title>
+
+    <!-- n번째 자식 요소 선택 -->
+    <style>
+        #sangbeom >p:nth-child(5) {
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+<div>
+    <span id="myspan">my text is upper!</span>
+    <ul>
+        <li>
+            <span>my text is dummy </span>
+            <div id="sangbeom">
+                <h2>단락선택</h2>
+                <p>1단락</p>
+                <p>2단락</p>
+                <p>3단락</p>
+                <p>4단락</p>
+            </div>
+        </li>
+        <li></li>
+    </ul>
+</div>
+</body>
+</html>
