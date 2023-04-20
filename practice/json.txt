@@ -1,0 +1,4 @@
+{
+    "name":"hsb",
+    "favorites" : ["game", "apple"]
+}
